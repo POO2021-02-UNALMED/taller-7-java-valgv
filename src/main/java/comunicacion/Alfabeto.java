@@ -25,9 +25,9 @@ public class Alfabeto extends Pictograma{
 		String alfab = "";
 		// letra por letra separada por comas
 		for(int i=0; i<letras.length; i++) {
-			alfab+= letras[i] + ", ";
+			alfab += letras[i] + ", ";
 		}
-		return alfab;
+		return alfab.substring(0, alfab.length()-2);
 	}
 	public void setLetras(String[] letras) {
 		this.letras=letras;
