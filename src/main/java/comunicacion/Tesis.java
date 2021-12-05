@@ -50,9 +50,9 @@ public class Tesis extends Escrito {
 		this.argumentos=argumentos;
 		
 	}
-	public int getArgumentos() {
+	public String[] getArgumentos() {
 		//cantidad de argumentos que tiene el objeto
-		return argumentos.length;
+		return argumentos;
 		
 	}
 	public void setConclusion(String conclusion) {
