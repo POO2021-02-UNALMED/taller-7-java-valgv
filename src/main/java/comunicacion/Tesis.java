@@ -36,7 +36,7 @@ public class Tesis extends Escrito {
 				+getIdea() + "\n"
 				+argumentos.length+"\n"
 				+getConclusion()+"\n"
-				+getReferencias()+"\n";
+				+getReferencias();
 	}
 	public void setIdea(String idea) {
 		this.idea=idea;

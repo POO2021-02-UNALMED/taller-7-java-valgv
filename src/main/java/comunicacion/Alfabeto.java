@@ -41,9 +41,10 @@ public class Alfabeto extends Pictograma{
 	public String getInterpretacion() {
 		return interpretacion;
 	}
-	/*public static void main(String[] args) {
-		Alfabeto alfabeto = new Alfabeto("alfabeto griego, occidente", new String [] { "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"}, "Alfabeto latino");
-		System.out.println(alfabeto);
+	public static void main(String[] args) {
+		//Alfabeto alfabeto = new Alfabeto("alfabeto griego, occidente", new String [] { "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"}, "Alfabeto latino");
+		//System.out.println(alfabeto);
+		
 		Fabula fabula = new Fabula("pensamiento", "La tortuga y la liebre", "Esopo", 2, "no se debe uno burlar de los demás, ni presumir o ser vanidoso", "Cuento corto");
 		System.out.println(fabula);
 		Tesis tesis = new Tesis("Pensamiento expansivo", "Recomendador", "Alejandro", 20, "Recomendar asignaturas", new String [] {"Primero", "Segundo"}, "Se hace trabajo futuro", "[1] Maquinaria",  "Escrito investigativo");
@@ -52,7 +53,8 @@ public class Alfabeto extends Pictograma{
 		System.out.println(libro);
 		Periodico periodico = new Periodico("Investigacion", "Se encontro la solucion", "Colombiano", 6, "20/12/2020", "Cura del covid", "Escrito informativo");
 		System.out.println(periodico);
-		System.out.println(alfabeto.getOrigen());
+		
+		/*System.out.println(alfabeto.getOrigen());
 		System.out.println(alfabeto.cantidadLetras());
 		System.out.println(fabula.getOrigen());
 		System.out.println(fabula.getTitulo());
@@ -89,8 +91,8 @@ public class Alfabeto extends Pictograma{
 		System.out.println(periodico.interpretacion());
 		System.out.println(periodico.palabrasTotales(140));
 		System.out.println(tesis.interpretacion());
-		System.out.println(tesis.palabrasTotales(140));
+		System.out.println(tesis.palabrasTotales(140));*/
 		
-	}*/
+	}
 
 }

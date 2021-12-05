@@ -34,7 +34,7 @@ public class Libro extends Escrito {
 				+ getPaginas() + "\n"
 				+getCo_autor() + "\n"
 				+getEditorial() + "\n"
-				+getEdicion() + "\n";
+				+getEdicion();
 		
 	}
 	public void setCo_autor(String co_autor) {
