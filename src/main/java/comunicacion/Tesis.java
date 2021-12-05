@@ -33,10 +33,10 @@ public class Tesis extends Escrito {
 				+ getTitulo()+ "\n"
 				+ getAutor()+ "\n"
 				+ getPaginas()+ "\n"
-				+idea + "\n"
+				+getIdea() + "\n"
 				+argumentos.length+"\n"
-				+conclusion+"\n"
-				+referencias+"\n";
+				+getConclusion()+"\n"
+				+getReferencias()+"\n";
 	}
 	public void setIdea(String idea) {
 		this.idea=idea;

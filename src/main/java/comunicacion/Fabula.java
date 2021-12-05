@@ -24,7 +24,7 @@ public class Fabula extends Escrito {
 				+ getTitulo()+ "\n"
 				+ getAutor()+ "\n"
 				+ getPaginas()+ "\n"
-				+ensenanza + "\n";
+				+getEnsenanza() + "\n";
 	}
 	public void setEnsenanza(String ensenanza) {
 		this.ensenanza=ensenanza;
