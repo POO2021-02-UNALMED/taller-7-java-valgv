@@ -22,11 +22,12 @@ public class Alfabeto extends Pictograma{
 	}
 	@Override
 	public String toString() {
-		//todos los tributos con los del padre - interpretacion linea por linea
-		String a = getOrigen() + "\n";
-		a+=  this.letras + "\n";
-		a+= this.interpretacion;
-		return a;
+		String alfab = "";
+		// letra por letra separada por comas
+		for(int i=0; i<letras.length; i++) {
+			alfab+= letras[i] + ", ";
+		}
+		return alfab;
 	}
 	public void setLetras(String[] letras) {
 		this.letras=letras;
@@ -40,5 +41,14 @@ public class Alfabeto extends Pictograma{
 	public String getInterpretacion() {
 		return interpretacion;
 	}
+	/*public static void main(String[] args) {
+		Alfabeto alfabeto = new Alfabeto("alfabeto griego, occidente", new String [] { "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"}, "Alfabeto latino");
+		System.out.println(alfabeto);
+		Fabula fabula = new Fabula("pensamiento", "La tortuga y la liebre", "Esopo", 2, "no se debe uno burlar de los demás, ni presumir o ser vanidoso", "Cuento corto");
+		System.out.println(fabula);
+		Tesis tesis = new Tesis("Pensamiento expansivo", "Recomendador", "Alejandro", 20, "Recomendar asignaturas", new String [] {"Primero", "Segundo"}, "Se hace trabajo futuro", "[1] Maquinaria",  "Escrito investigativo");
+		System.out.println(tesis);
+		System.out.println(alfabeto.cantidadLetras());
+	}*/
 
 }

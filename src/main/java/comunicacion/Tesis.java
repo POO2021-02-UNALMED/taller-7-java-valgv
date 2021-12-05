@@ -34,10 +34,9 @@ public class Tesis extends Escrito {
 				+ getAutor()+ "\n"
 				+ getPaginas()+ "\n"
 				+idea + "\n"
-				+argumentos+"\n"
+				+argumentos.length+"\n"
 				+conclusion+"\n"
-				+referencias+"\n"
-				+interpretacion+"\n";
+				+referencias+"\n";
 	}
 	public void setIdea(String idea) {
 		this.idea=idea;

@@ -26,14 +26,15 @@ public class Libro extends Escrito {
 	}
 	@Override
 	public String toString() {
+		//todos los tributos con los del padre - interpretacion linea por linea
+		
 		return  getOrigen() + "\n"
 				+ getTitulo() + "\n"
 				+ getAutor() + "\n"
 				+ getPaginas() + "\n"
 				+co_autor + "\n"
 				+editorial + "\n"
-				+edicion + "\n"
-				+interpretacion+"\n";
+				+edicion + "\n";
 		
 	}
 	public void setCo_autor(String co_autor) {

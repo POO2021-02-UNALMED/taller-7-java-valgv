@@ -28,8 +28,7 @@ public class Periodico extends Escrito {
 					+ getAutor()+ "\n"
 					+ getPaginas()+ "\n"
 					+fecha + "\n"
-					+primicia+"\n"
-					+interpretacion+"\n";
+					+primicia+"\n";
 	}
 	public void setFecha(String fecha) {
 		this.fecha=fecha;
